@@ -2,7 +2,7 @@ print("started-------"..os.clock())
 local iterations=15
 local tab_size=2e5
 local random_size={0,1e6}
-local algs_to_test={"default","quicksortv1","quicksortv2","quicksortv3","quicksortv3dup"}
+local algs_to_test={"bogosort"}
 local function sort(a,b)
     return a<b
 end
